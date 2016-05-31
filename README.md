@@ -1,4 +1,4 @@
-# __ Exercise
+# Calculator Exercise
 
 **Author**: Megan Ford May 2016 
 
