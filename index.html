@@ -1,0 +1,43 @@
+<!-- Create an HTML file that has two input fields to accept the two numbers to perform operations on.
+Create 4 buttons to perform each of the basic mathematical functions (add, subtract, multiply, divide).
+In your JavaScript, put an event listener on each of the buttons.
+implement a basic calculator in js file.
+When the user performs one of the operations, output the result to another DOM element of your choice. -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Calculator exercise</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class = "container-fluid">
+    <div class = "row">
+    <!-- blank padding div on left, to center calculator content -->
+      <div class = "col-xs-1 col-sm-2 col-md-3 col-lg-4"> 
+      </div>
+      <!-- main content. centered. -->
+      <div class = "content col-xs-10 col-sm-8 col-md-6 col-lg-4">
+        <h1>Calculator</h1>
+        <h5>First Number</h5>
+        <input type="number" name="num1" id="num1">
+        <h5>Second Number</h5>
+        <input type="number" name="num2" id="num2">
+        <!-- four operations buttons -->
+        <h5>Operations</h5>
+        <button class = "btn btn-success" id="add">Add</button>
+        <button  class = "btn btn-primary"id="subtract">Subtract</button>
+        <button class = "btn btn-warning"id="multiply">Multiply</button>
+        <button class = "btn btn-danger"id="divide">Divide</button>
+        <h3 id="result"></h3>
+      </div>
+      <!-- blank padding div on right. -->
+      <div class = "col-xs-1 col-sm-2 col-md-3 col-lg-4">
+      </div>
+    </div>
+  </div>
+</body>
+  <script src="calculator.js"></script>
+</html>
